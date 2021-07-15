@@ -1,0 +1,98 @@
+.top-part{
+    border: 1px solid blue;
+    background-color: rgb(52, 52, 235);
+}
+.top-header{
+    display: flex;
+    justify-content: center;
+}
+.top-header:hover{
+    transform: scale(1.2);
+    transition: transform 2s;
+}
+.headline{
+    font-size: 50px;
+    margin-top: 3em;
+    
+}
+img{
+    width: 500px;
+    margin-left: 2em;
+    margin-top: 5em;
+    margin-bottom: 2em;
+}
+.button{
+    border: 1px solid darkmagenta;
+    background-color: darkmagenta;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+.photo-frame{
+    width: 15em;
+    min-height: 400px;
+    border: 2px solid aliceblue;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding-left: 20px;
+    overflow: hidden;
+    
+}
+.photo-frame:hover{
+    transform: scale(1.1);
+    transition: transform 2s;
+}
+.photo img{
+    width: 200px;
+    margin-left: 0;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.photo-frame h3,p{
+    margin-left: 5px;
+    margin-top: -15px;
+    padding-left: 15px;
+}
+.player-album{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 10px;
+    
+}
+.main-part{
+    padding-left: 15em;
+}
+.main{
+    margin-top: 1em;
+    width: 55em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2em solid aliceblue;
+}
+.footer img{
+        padding-left: 30%;
+        padding-right: 25%;
+}
+.fab{
+    font-size: 15px;
+    margin-left: 30px;
+    color: gray;
+    
+}
+.icon{
+    padding-left: 42%;
+
+}
+.far{
+    font-size:14px ;
+}
+.copyright{
+    text-align: center;
+}
+@media only screen and (max-width:688px) {
+    .top-part{
+        width: 65em;
+    }
+}
